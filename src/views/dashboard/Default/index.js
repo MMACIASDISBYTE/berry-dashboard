@@ -21,6 +21,8 @@ const Dashboard = () => {
   }, []);
 
   return (
+    <>
+    <h3>INDEX /dashboard/index.js</h3>
     <Grid container spacing={gridSpacing}>
       <Grid item xs={12}>
         <Grid container spacing={gridSpacing}>
@@ -53,6 +55,7 @@ const Dashboard = () => {
         </Grid>
       </Grid>
     </Grid>
+    </>
   );
 };
 
